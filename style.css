@@ -1,0 +1,63 @@
+body{
+    background: url(https://wallpaperaccess.com/full/3601933.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+#score{
+    display: flex;
+    background-color: aliceblue;
+    width: 15%;
+    max-width: 40px;
+    height: 40px;
+    margin: auto 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: cursive;
+    font-weight: bold;
+    border: 2px solid black;
+}
+#score p{
+    font-size: 3rem;
+}
+.circle{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#five {
+    top: 40%;
+    left: 45%;
+    width: 10vw;
+    height: 10vw;
+    background-color: red;
+    position: absolute;
+    
+}
+#four {
+    width: 8vw;
+    height: 8vw;
+    background-color: aliceblue;
+}
+#three {
+    width: 6vw;
+    height: 6vw;
+    background-color: red;
+}
+#two {
+    width: 4vw;
+    height: 4vw;
+    background-color: aliceblue;
+    
+}
+#one {
+    width: 2vw;
+    height: 2vw;
+    background-color: red;
+    cursor: pointer;
+}
